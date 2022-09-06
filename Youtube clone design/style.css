@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+    display: flex;
+}
+
+
+.navbar {
+    /* background-color: aqua; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    
+}
+
+#menuicon {
+    width: 17px;
+    margin-left: 23px;
+
+
+}
+#logoyoutube{
+    width: 97px;
+    margin-left: 16px;
+}
+#searchfield{
+    margin-left: 287px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 272px;
+    padding-left: 6px;
+}
+#searchbtn{
+    padding: 10px 15px;
+    width: 15px;
+    text-decoration: none;
+    border: 1px solid grey;
+    background-color: rgb(236, 231, 231);
+}
+
+#voiceicon{ 
+    width: 15px;
+    background-color: rgb(236, 231, 231);
+    border-radius: 15px;
+    padding: 8px 8px;
+    margin-left: 7px;
+
+}
+.navicons{
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+   
+}
+#profile{
+    width: 24px;
+    border-radius: 20px;
+
+    
+}
+.sidebar{
+    width: 12%;
+    height: 100%;
+    /* background-color: coral; */
+}
+.sidebar :hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.sidebarcontent img{
+    width: 15px;
+    margin: 0px 16px;
+}
+.sidebarcontent{
+    background-color: lightgray;
+    padding: 6px 0px;
+    font-size: small;
+}
+
+
+.sidebar img{
+    width: 15px;
+    margin: 0px 16px;
+}
+.sidebar p{
+    padding: 7px 0px;
+    font-size: small;
+}
+.buttons{
+    height: 50px;
+    /* background-color: blue; */
+    /* width: 87%; */
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    padding: 0px 10px;
+    border-radius: 15px;
+    font-size: x-small;
+    margin: 10px 0px;
+}
+#firstbutton{
+    background-color: black;
+    color: white;
+
+}
+.maincontent{
+   width: 90%; 
+   height: 100%;
+  
+  
+}
+.youtubevedios{
+    background-color: rgb(245, 243, 243);
+}
+.youtubevedios iframe{
+    margin: 4px 4px;
+}
